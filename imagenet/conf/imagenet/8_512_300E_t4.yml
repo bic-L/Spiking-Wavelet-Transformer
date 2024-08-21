@@ -18,7 +18,7 @@ cooldown_epochs: 10
 crop_pct: 0.95
 cutmix: 1.0
 cutmix_minmax: null
-data_dir: '/hpc2hdd/home/yfang870/dataset/imagenet/'
+data_dir: ''
 dataset: imagenet
 decay_epochs: 30
 decay_rate: 0.1
@@ -45,7 +45,7 @@ jsd: false
 layer: 8
 local_rank: 0
 log_interval: 100
-log_wandb: True
+log_wandb: False
 lr: 0.001
 lr_cycle_limit: 1
 lr_cycle_mul: 1.0
