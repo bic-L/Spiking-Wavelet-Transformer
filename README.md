@@ -2,8 +2,6 @@
 
 Spiking Wavelet Transformer, ECCV'24: [[Paper]](https://arxiv.org/pdf/2403.11138). 
 
-<div align="center"> <img src="https://github.com/user-attachments/assets/bf602c24-37bd-4be3-bfef-75ee8b934e35"  alt="acc"/><br/>
-
 
 ### Key points
 
