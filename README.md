@@ -4,7 +4,7 @@ Spiking Wavelet Transformer, ECCV'24: [[Paper]](https://arxiv.org/pdf/2403.11138
 
 <div align="center"> <img src="https://github.com/bic-L/Spiking-Wavelet-Transformer/blob/main/figures/fig1.png"  width="810" height="270" alt="acc"/> </div>
   
-### Key points
+### Key contributions
 
 The "***Spiking Wavelet Transformer***" introduces an innovative approach to enhancing spiking neural networks (SNNs) by integrating wavelet transforms with transformer architectures in an attention-free fashion. This method addresses the challenge of effectively capturing high-frequency patterns crucial for event-driven vision tasks, unlike self-attention, which prioritizes low-frequency elements. Key features include:
 
