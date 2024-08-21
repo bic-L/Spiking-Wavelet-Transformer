@@ -21,7 +21,7 @@ cooldown_epochs: 10
 crop_pct: 0.95
 cutmix: 1.0
 cutmix_minmax: null
-data_dir: '/hpc2hdd/home/yfang870/dataset/imagenet/'
+data_dir: ''
 dataset: imagenet
 decay_epochs: 30
 decay_rate: 0.1
@@ -96,7 +96,7 @@ recovery_interval: 0
 remode: const
 reprob: 0.0
 resplit: false
-resume: '/hpc2hdd/home/yfang870/ECCV_git/checkpoints/6-512-block-2-vth-1.0-bs512-74.9499.pth.tar'
+resume: ''
 save_images: false
 scale:
 - 0.08
