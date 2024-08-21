@@ -114,7 +114,7 @@ train_split: train
 tta: 0
 use_conv_as_linear: true
 use_multi_epochs_loader: false
-val_batch_size: 32
+val_batch_size: 135
 val_split: validation
 vflip: 0.0
 warmup_epochs: 30
