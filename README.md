@@ -14,4 +14,19 @@ The "***Spiking Wavelet Transformer***" introduces an innovative approach to enh
 
 This approach provides a practical solution for advancing energy-efficient, event-driven computing.
 
-### Running the Code
+### Implementation
+[Checkpoints for ImageNet](https://github.com/bic-L/Spiking-Wavelet-Transformer/releases/tag/checkpoints)
+
+For more details on our training, please check out our paper and supplementary material. (Note: for Imagenet, we used 8×A800 GPU cards for training, total batch size = 512 )
+
+#### Requirement:
+
+torch need to >=2.0.0, check this [link](https://pytorch.org/get-started/previous-versions/) for details
+
+```bash
+  pip install timm==0.6.12 spikingjelly==0.0.0.0.12 opencv-python==4.8.1.78 wandb einops PyYAML Pillow six torch
+```
+
+#### Running the code
+
+Please check the bash file in each folder (cifar10-100, event, imagenet).
