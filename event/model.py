@@ -119,7 +119,8 @@ class FATM(nn.Module):
         # Inverse wavelet transform
         haar = self.haar_inverse(haar) #T, B, C, h, w
         haar = self.haar_inverse_bn(haar.reshape(T*B, C, H, W)).reshape(T, B, C, H, W).contiguous() #T, B, C, h, w
-
+        haar = self.pool(haar)
+        
         # ---------time domain
         x = haar.reshape(T*B*self.num_blocks, self.block_size, H, W).contiguous() # for conv: T*B*block_num, block_size, h, w
         
