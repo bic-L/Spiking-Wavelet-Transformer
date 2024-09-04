@@ -21,7 +21,7 @@ For more details on our training, please check out our paper and supplementary m
 
 #### Requirement:
 
-torch need to >=2.0.0, check this [link](https://pytorch.org/get-started/previous-versions/) for details
+Make sure your PyTorch version is 2.0.0 or higher. For more information, please visit [link](https://pytorch.org/get-started/previous-versions/) for details
 
 ```bash
   pip install timm==0.6.12 spikingjelly==0.0.0.0.12 opencv-python==4.8.1.78 wandb einops PyYAML Pillow six torch
