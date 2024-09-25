@@ -1,6 +1,7 @@
 ## Spiking Wavelet Transformer (ECCV-2024)
 
 Spiking Wavelet Transformer, ECCV'24: [[Paper]](https://arxiv.org/pdf/2403.11138). 
+![eccv_poster-1](https://github.com/user-attachments/assets/480336c7-7b50-47c2-bd89-ffd4ce54aa92)
 
 <div align="center"> <img src="https://github.com/bic-L/Spiking-Wavelet-Transformer/blob/main/figures/fig1.png"  width="810" height="270" alt="acc"/> </div>
   
