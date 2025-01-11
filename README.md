@@ -31,3 +31,17 @@ Make sure your PyTorch version is 2.0.0 or higher. For more information, please 
 #### Running the code
 
 Please check the bash file in each folder (cifar10-100, event, imagenet).
+
+
+#### Citation
+
+```
+  @inproceedings{fang2025spiking,
+    title={Spiking wavelet transformer},
+    author={Fang, Yuetong and Wang, Ziqing and Zhang, Lingfeng and Cao, Jiahang and Chen, Honglei and Xu, Renjing},
+    booktitle={European Conference on Computer Vision},
+    pages={19--37},
+    year={2025},
+    organization={Springer}
+  }
+```
